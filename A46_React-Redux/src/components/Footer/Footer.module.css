@@ -1,0 +1,77 @@
+.footer {
+    background: var(--color-primary);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.box {
+    flex: 1rem;
+    margin-left: 8rem;
+    margin-right: 5rem;
+}
+
+.box h3 {
+    font-size: 2.5rem;
+    padding: 0.7rem 0;
+    color: var(--color-secondary);
+    font-family: var(--font-secondary);
+}
+
+.box p {
+    font-size: 1.2rem;
+    padding: 0.7rem 0;
+    color: var(--color-white);
+}
+
+.box a {
+    display: block;
+    font-size: 1.3rem;
+    padding: 0.7rem 0;
+    color: var(--color-white);
+}
+
+.box a:hover {
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+
+.social_icon img {
+    width: 24px;
+    height: 24px;
+}
+
+ul.social_icon {
+    display: flex;
+    list-style: none;
+}
+
+ul.social_icon li a {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    transition: 0.2s ease;
+    text-align: center;
+    transition: 0.3s ease;
+    margin: 0 10px;
+}
+
+ul.social_icon li a:hover {
+    background-color: var(--color-secondary);
+}
+
+.footer_box { 
+    display: flex;
+}
+
+.credit {
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--color-white);
+}
+
+.credit span {
+    color: var(--color-secondary);
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Courgette&family=M+PLUS+1:wght@200&family=Montserrat:wght@200;300&family=Nunito:ital,wght@0,200;0,500;0,600;0,700;1,300&family=Poppins:wght@200&family=Satisfy&display=swap');
+
+:root {
+  --color-primary: #403f3f;
+  --color-secondary: #427a5b;
+  --color-bg-btn: #b4cd93;
+  --color-white: #eeeeee;
+  --font-primary: 'Nunito', sans-serif;
+  --font-secondary: 'Satisfy', cursive;
+  --font-cards: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+}
+
+.main_title {
+  margin-top: 2rem;
+  padding: 10px;
+}
+
+.title_secondary {
+  font-size: 5rem;
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  position: relative;
+  text-align: center;
+}
+
+.title_primary {
+  font-size: 2rem;
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  position: relative;
+  text-align: center;
+}
+
+/* responsividade */
+
+@media (max-width:1200px){
+
+  html{
+    font-size: 55%;
+  }
+
+}
+
+@media (max-width:991px){
+
+  header{
+    padding:2rem;
+  }
+
+  section{
+    padding:2rem;
+  }
+
+}
+
+@media (max-width:450px){
+
+  html{
+    font-size: 70%;
+  }
+
+}

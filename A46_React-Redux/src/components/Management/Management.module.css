@@ -1,0 +1,28 @@
+.forms { 
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+}
+
+.butns { 
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.ttl { 
+    font-family: var(--font-secondary);
+    color: var(--color-primary);
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.tabl_ttl { 
+    font-family: var(--font-primary);
+    font-weight: 700;
+    text-align: center;
+}
+
+.thd { 
+    background-color: #CEE9CE;
+}

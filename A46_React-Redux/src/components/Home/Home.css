@@ -1,0 +1,74 @@
+.home { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card_services { 
+    max-width: 100%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: var(--color-white);
+}
+
+.card_services:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -8px); 
+}
+
+.main_img {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.infos {
+    padding: 10px;
+}
+
+.title { 
+    font-size: 30px;
+    padding: 10px;
+}
+
+.descript {
+    text-align: center;
+    color: #b2bec3;
+    padding: 10px 5px 10px 5px;
+}
+
+.card_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.btn_ {
+    display: inline-block;
+    background:var(--color-secondary);
+    color:var(--color-white);
+    border:.2rem solid var(--color-secondary);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 5px 20px;
+}
+
+.btn_:hover {
+    background:var(--color-bg-btn);
+    color:var(--color-secondary);
+}
